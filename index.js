@@ -99,7 +99,7 @@ async function handleOrderCreatedEvent(item) {
             listings.send({embeds: [embedMsg]});
         }
 
-        if (og && claimDetails.og) {
+        if (ghost && claimDetails.ghost) {
             og.send({embeds: [embedMsg]});
         }
     } catch (e) {
